@@ -205,3 +205,38 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Project-specific files
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+avito_rental.db
+
+# Token cache files
+avito_token_cache.json
+token.json
+
+# ChromaDB vector database
+chroma_db/
+
+# Temporary and test files
+*.tmp
+*.bak
+*_test.py
+test_*.py
+
+# Temporary markdown files from restructuring
+file_categorization.md
+FINAL_VERIFICATION_REPORT.md
+VERIFICATION_REPORT.md
+import_updates_summary.md
+task_*_completion_report.md
+verify_imports.py
+
+# Old test directory (restructured into src/)
+TestMCPServer/
+
+.kiro
+.vscode/
+описание.txt

@@ -1,0 +1,42 @@
+# ============================================================================
+# Avito Rental Assistant - Python Dependencies
+# ============================================================================
+# This file lists all required Python packages for the Avito Rental Assistant
+# project, organized by functional area.
+# ============================================================================
+
+# Core Dependencies
+# ----------------------------------------------------------------------------
+python-dotenv==1.0.1          # Environment variable management from .env files
+
+# Telegram Bot
+# ----------------------------------------------------------------------------
+python-telegram-bot==20.7     # Telegram Bot API wrapper for landlord interface
+python-dateutil==2.8.2        # Date manipulation utilities for booking dates
+
+# HTTP Client & API Integration
+# ----------------------------------------------------------------------------
+httpx==0.25.2                 # Modern async HTTP client for Avito API calls
+
+# Database & ORM
+# ----------------------------------------------------------------------------
+SQLAlchemy==2.0.23            # SQL toolkit and ORM for database operations
+
+# AI/ML - Ollama Integration
+# ----------------------------------------------------------------------------
+ollama==0.1.6                 # Ollama Python client for LLM chat interface
+
+# MCP Server (Model Context Protocol)
+# ----------------------------------------------------------------------------
+fastmcp==0.2.0                # FastMCP server for bridging chat and bot
+starlette==0.27.0             # ASGI framework (dependency of FastMCP)
+
+# Additional Dependencies
+# ----------------------------------------------------------------------------
+# Note: The following packages are indirect dependencies but may be needed:
+# - anyio (async I/O support, typically installed with httpx/starlette)
+# - certifi (SSL certificates, typically installed with httpx)
+# - h11 (HTTP/1.1 protocol, dependency of httpx)
+# - httpcore (HTTP core library, dependency of httpx)
+# - idna (internationalized domain names, dependency of httpx)
+# - sniffio (async library detection, dependency of anyio)

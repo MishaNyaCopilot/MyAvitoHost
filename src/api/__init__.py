@@ -1,0 +1,1 @@
+"""Avito API integration module."""

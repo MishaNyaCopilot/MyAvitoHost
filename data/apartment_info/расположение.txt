@@ -1,0 +1,2 @@
+Расположение
+[CITY], [STREET], [BUILDING_NUMBER]
